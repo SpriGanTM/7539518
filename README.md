@@ -26,3 +26,13 @@ python main.py
 - Пустые поля → ошибка
 - Неверная температура → ошибка
 - Неверная дата → ошибка
+
+## Git (как запускать)
+
+```bash
+git init
+git add .
+git commit -m "Weather diary"
+git branch -M main
+git remote add origin https://github.com/your-username/weather-diary.git
+git push -u origin main
